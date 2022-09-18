@@ -12,7 +12,7 @@ public class AnalyticsController {
 		ISymptomReader readerSymptomList = new ReadSymptomDataFromFile("symptoms.txt");
 		List<String> list = readerSymptomList.GetSymptoms();
 		 for(String l : list) {
-			 System.out.println(l + "\n");
+			 System.out.println(l+"\n");
 		 }
 	}
 }
