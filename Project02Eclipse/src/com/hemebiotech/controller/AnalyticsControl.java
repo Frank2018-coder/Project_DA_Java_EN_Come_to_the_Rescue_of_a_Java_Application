@@ -10,12 +10,12 @@ import com.hemebiotech.dao.ProcesData;
 import com.hemebiotech.dao.ReadSymptomDataFromFile;
 import com.hemebiotech.dao.WriteData;
 
-
+/**
+ * implements the control logic of the operations of reading, 
+ * counting, sorting and writing of the list of symptoms
+ */
 public class AnalyticsControl {
-    /**
-     * implements the control logic of the operations of reading, 
-     * counting, sorting and writing of the list of symptoms
-     */
+    
 	public void run() {
 		//file read logic
 		ISymptomReader readerSymptomList = new ReadSymptomDataFromFile("symptoms.txt");
