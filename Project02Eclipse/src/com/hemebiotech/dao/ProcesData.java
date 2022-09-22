@@ -4,10 +4,15 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-
+/*
+ * simple implementation of IProces class
+ */
 
 public class ProcesData implements IProcesData{
 
+	/**
+	 * List of symptoms in alphabetical order and number of occurrences 
+	 */
 	@Override
 	public Map<String, Integer> countAndSort(List<String> list) {
 		// TODO Auto-generated method stub

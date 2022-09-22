@@ -9,7 +9,7 @@ public interface IProcesData {
     * Count and sort file elements
     *
     * @param list
-    * @return
+    * @return returns a sorted list in alphabetical order
     */
    Map<String, Integer> countAndSort(List<String> list);
    
